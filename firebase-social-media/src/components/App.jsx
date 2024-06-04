@@ -2,13 +2,13 @@ import React from "react";
 import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Signup from "./components/Signup";
-import Login from "./components/Login";
-import Dashboard from "./components/Dashboard";
-import NewPost from "./components/NewPost";
-import EditPost from "./components/EditPost";
-import { AuthProvider } from "./contexts/AuthContext";
-import PrivateRoute from "./components/PrivateRoute";
+import Signup from "./Signup";
+import Login from "./Login";
+import Dashboard from "./Dashboard";
+import NewPost from "./NewPost";
+import EditPost from "./EditPost";
+import { AuthProvider } from "./AuthContext";
+import PrivateRoute from "./PrivateRoute";
 
 function App() {
   return (

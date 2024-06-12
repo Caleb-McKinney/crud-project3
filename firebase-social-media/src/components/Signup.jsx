@@ -1,6 +1,5 @@
 import React from "react";
 import { Formik, Form, Field } from "formik";
-import * as Yup from "yup";
 import { auth } from "../firebase";
 import { useHistory } from "react-router-dom";
 
